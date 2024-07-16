@@ -43,7 +43,9 @@ button {
   background: #0faf87;
 }
 .headerbar {
-  background-color: rgb(120, 68, 242);
+  border-bottom: solid 2px;
+  background-color: plum ;
+  /* background-color: rgb(120, 68, 242);
   background-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
@@ -55,7 +57,7 @@ button {
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
   height: 40px;
   position: relative;
   text-align: center;
@@ -66,22 +68,24 @@ button {
 .xbutton {
   display: inline-block;
   line-height: 0;
-  background: orangered;
+  color: orangered;
+  padding-right: 5px;
   right: 0;
   top: 0;
-  width: 50px;
-  border: ridge 10px;
+  width: auto;
+  height: 30px;
+  /* border: ridge 10px; */
   position: absolute;
-  border-color: rgb(120, 68, 242);
+  /* border-color: rgb(120, 68, 242);
   border-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
 }
-.xbutton:hover {
+/* .xbutton:hover {
   border: pink ridge 12px;
-}
+} */
 
 .htitle {
   display: inline-block;
@@ -93,48 +97,52 @@ button {
   position:relative;
 }
 .contentbox {
+  background:white;
   /* position: relative; */
   box-shadow: 10px 5px black;
   z-index: 3;
   width: 500px;
   margin: 10px;
-  border: ridge 8px;
-  border-radius: 2%;
-  border-color: rgb(120, 68, 242);
+  border: solid 2px;
+  /* border-radius: 2%; */
+ 
+  /* border-color: rgb(120, 68, 242);
   border-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
-  background-color: #101373; /* light blue background color */
+  ); */
+  /* background-color: #101373; 
   background-image: linear-gradient(#3137f5 0.1rem, transparent 0.1rem),
     linear-gradient(90deg, #3137f5 0.1rem, transparent 0.1rem);
-  background-size: 3rem 3rem; /* size of the grid squares */
-  animation: animateBackground 40s linear infinite;
+  background-size: 3rem 3rem; 
+  animation: animateBackground 40s linear infinite; */
 }
-@keyframes animateBackground {
+/* @keyframes animateBackground {
   from {
-    background-position: 0 0; /* start at top-left corner */
+    background-position: 0 0; 
   }
   to {
-    background-position: 100% 100%; /* end at bottom-right corner */
+    background-position: 100% 100%; 
   }
-}
+} */
 
 .contentbox2 {
+  background:white;
   box-shadow: 10px 5px black;
   position: relative;
   margin: 10px;
   z-index: 3;
   height: 450px;
-  border: ridge 8px;
-  border-radius: 2%;
+  border: solid 2px;
+  /* border-radius: 2%; */
+  /* border-radius: 2%;
   border-color: rgb(120, 68, 242);
   border-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
 
   overflow: hidden;
 }
@@ -144,20 +152,21 @@ button {
   
 }
 .contentbox3 {
+  background:white;
   box-shadow: 10px 5px black;
   z-index: 3;
   
   width:500px;
   height:500px;
   margin: 10px;
-  border: ridge 8px;
-  border-radius: 2%;
-  border-color: rgb(120, 68, 242);
+  border: solid 2px;
+  /* border-radius: 2%; */
+  /* border-color: rgb(120, 68, 242);
   border-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
   overflow: hidden;
   
 }

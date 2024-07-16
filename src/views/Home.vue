@@ -8,8 +8,9 @@
       
     </div>
     <div class="container">
+      
       <div class="mainbox"></div>
-      <big-popup />
+      <!-- <big-popup /> -->
       <div class="popups">
       <popup
         class="contentbox"

@@ -25,7 +25,10 @@
     
 }
 .headerbar {
-  background-color: rgb(120, 68, 242);
+  /* border: solid 2px;
+  border-radius: 2%; */
+  background-color: blueviolet;
+  /* background-color: rgb(120, 68, 242);
   background-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
@@ -37,7 +40,7 @@
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
   position: relative;
   text-align: center;
 }
@@ -47,32 +50,37 @@
 }
 .navbar {
   background: black;
+  border: solid 2px black;
+  /* border-radius: 2%; */
   width: 100%;
   position: absolute;
   display: block;
   line-height: 0.1;
   color: white;
-  border-bottom: ridge 8px;
+  /* border-bottom: ridge 8px;
   border-color: rgb(120, 68, 242);
   border-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
 }
 
 .minibox {
+  box-shadow: 5px 5px black;
   background: black;
   width: 100px;
   height: 130px;
-  border-bottom: ridge 8px;
+  border: solid 2px;
+  border-radius: 2%;
+  /* border-bottom: ridge 8px;
   border-right: ridge 8px;
   border-color: rgb(120, 68, 242);
   border-color: linear-gradient(
     90deg,
     rgba(120, 68, 242, 1) 51%,
     rgba(206, 149, 241, 1) 100%
-  );
+  ); */
 }
 
 .minibox img {
