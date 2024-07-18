@@ -1,7 +1,4 @@
 <template>
-    <!-- <header>
-      <h1>It's Me!</h1>
-    </header> -->
     <div class="about">
       <div class="profile">
         <img src="/assets/images/scotch.jpg" alt="profile" />

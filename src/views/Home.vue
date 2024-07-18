@@ -1,6 +1,6 @@
 <template>
   <div class="maincontainer">
-
+<About />
     <div class="icon">
       <button @click="isActive = !isActive">
         <img src="../assets/images/icon.jpg" alt="profile" />
