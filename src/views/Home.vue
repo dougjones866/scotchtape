@@ -1,15 +1,18 @@
 <template>
   <div class="maincontainer">
-<About />
+    <div class="goateyes">
+    </div>  
     <div class="icon">
       <button @click="isActive = !isActive">
         <img src="../assets/images/icon.jpg" alt="profile" />
       </button>
       
     </div>
+    <goat class="goateyes" />
     <div class="container">
       
       <div class="mainbox"></div>
+      <info />
       <!-- <big-popup /> -->
       <div class="popups">
       <popup
@@ -69,6 +72,8 @@ const close3 = () => {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +95,9 @@ const close3 = () => {
 
 }
 
-
+.goateyes {
+  
+}
 
 
 .profile {

@@ -1,6 +1,6 @@
 <template>
   <div class="icons" v-for="icon in icons" :key="icon">
-    <img :src="`./assets/icons/${icon.img}`" class="iconimg" />
+    <img :src="`/assets/icons/${icon.img}`" class="iconimg" />
   </div>
 </template>
 

@@ -12,6 +12,8 @@ import BigPopup from './components/UI/BigPopup.vue'
 import Bulletin from './components/Bulletin.vue'
 import ButtonList from './components/UI/ButtonList.vue'
 import IconList from './components/IconList.vue'
+import Goat from './components/Goat.vue';
+import Info from './components/Info.vue';
 // import TheCard from './components/TheCard.vue';
 // import BlogEntry from './components/BlogEntry.vue';
 // import NewEntry from './components/NewEntry.vue';
@@ -28,6 +30,8 @@ app.component('bulletin', Bulletin);
 app.component('button-list', ButtonList);
 app.component('nav-bar', NavBar);
 app.component('icon-list', IconList);
+app.component('goat', Goat);
+app.component('info', Info);
 // app.component('the-card', TheCard);
 // app.component('blog-entry', BlogEntry);
 // app.component('new-entry', NewEntry);
