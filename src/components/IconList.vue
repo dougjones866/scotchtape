@@ -21,6 +21,8 @@ const icons = ref([
     img: "icon1.png",
   },
 ]);
+
+
 </script>
 
 <style scoped>
